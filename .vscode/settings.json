@@ -1,0 +1,15 @@
+{
+  "remote.extensionKind": {
+
+    "pub.name": [
+      "ui"
+    ]
+  },
+  "emmet.preferences": {
+  },
+
+  "emmet.includeLanguages":{
+    "javascript":"javascriptreact"
+}
+
+}
