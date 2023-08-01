@@ -1,6 +1,6 @@
 import Favorite from "@/components/Favorite";
 import { IoLogoYoutube } from "react-icons/io5";
-import { SiGmail, SiKibana, SiSvelte, SiTailwindcss, SiNetflix } from "react-icons/si";
+import { SiGmail, SiKibana, SiSvelte, SiTailwindcss, SiNetflix, SiVercel } from "react-icons/si";
 import { BsDiscord, BsWhatsapp, BsMicrosoftTeams, BsNewspaper, BsReddit, BsGithub, BsFillLightningChargeFill } from "react-icons/bs";
 import { FaSquarePollHorizontal, FaN, FaFileExcel, FaExclamation, FaReact, FaGetPocket, FaX } from "react-icons/fa6";
 import { FcSupport } from "react-icons/fc";
@@ -153,6 +153,12 @@ export default function Home() {
           url="https://github.com"
           title="Github"
           icon={<BsGithub />}
+          color="text-[white]"
+        />
+        <Favorite
+          url="https://vercel.com/dashboard"
+          title="Vercel"
+          icon={<SiVercel />}
           color="text-[white]"
         />
         <Favorite
