@@ -1,7 +1,7 @@
 import Favorite from "@/components/Favorite";
 import { IoLogoYoutube } from "react-icons/io5";
 import { SiGmail, SiKibana, SiSvelte, SiTailwindcss, SiNetflix } from "react-icons/si";
-import { BsDiscord, BsWhatsapp, BsMicrosoftTeams, BsNewspaper, BsReddit, BsGithub } from "react-icons/bs";
+import { BsDiscord, BsWhatsapp, BsMicrosoftTeams, BsNewspaper, BsReddit, BsGithub, BsFillLightningChargeFill } from "react-icons/bs";
 import { FaSquarePollHorizontal, FaN, FaFileExcel, FaExclamation, FaReact, FaGetPocket, FaX } from "react-icons/fa6";
 import { FcSupport } from "react-icons/fc";
 import { BiSolidBookOpen, BiSolidKeyboard } from "react-icons/bi";
@@ -74,6 +74,12 @@ export default function Home() {
           title="Netflix"
           icon={<SiNetflix />}
           color="text-[#e50914]"
+        />
+        <Favorite
+          url="https://chat.openai.com/"
+          title="Chat GPT"
+          icon={<BsFillLightningChargeFill />}
+          color="text-[#159a7d]"
         />
       </div>
 
