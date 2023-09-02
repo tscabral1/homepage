@@ -1,18 +1,41 @@
 import Favorite from "@/components/Favorite";
-import { IoLogoYoutube } from "react-icons/io5";
-import { SiGmail, SiKibana, SiSvelte, SiTailwindcss, SiNetflix, SiVercel } from "react-icons/si";
-import { BsDiscord, BsWhatsapp, BsMicrosoftTeams, BsNewspaper, BsReddit, BsGithub, BsFillLightningChargeFill } from "react-icons/bs";
-import { FaSquarePollHorizontal, FaN, FaFileExcel, FaExclamation, FaReact, FaGetPocket, FaX } from "react-icons/fa6";
-import { FcSupport } from "react-icons/fc";
 import { BiSolidBookOpen, BiSolidKeyboard } from "react-icons/bi";
+import {
+  BsDiscord,
+  BsFillLightningChargeFill,
+  BsGithub,
+  BsMicrosoftTeams,
+  BsNewspaper,
+  BsReddit,
+  BsWhatsapp,
+  BsDropbox,
+} from "react-icons/bs";
+import {
+  FaExclamation,
+  FaFileExcel,
+  FaGetPocket,
+  FaN,
+  FaReact,
+  FaSquarePollHorizontal,
+  FaX,
+} from "react-icons/fa6";
+import { FcSupport } from "react-icons/fc";
+import { IoLogoYoutube } from "react-icons/io5";
 import { PiSunHorizonBold } from "react-icons/pi";
 import { RxAvatar } from "react-icons/rx";
+import {
+  SiGmail,
+  SiKibana,
+  SiNetflix,
+  SiSvelte,
+  SiTailwindcss,
+  SiVercel,
+} from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
 export default function Home() {
   return (
     <main className="bg-[#2a2a2a] h-screen pt-9 grid grid-cols-3 gap-4 px-56 justify-between">
-
       {/* General Favorites */}
       <div>
         <Favorite
@@ -38,6 +61,12 @@ export default function Home() {
           title="Discord"
           icon={<BsDiscord />}
           color="text-[#7289d9]"
+        />
+        <Favorite
+          url="https://dropbox.com/"
+          title="Dropbox"
+          icon={<BsDropbox />}
+          color="text-[#0060FF]"
         />
         <Favorite
           url="https://www.1377x.to/"
