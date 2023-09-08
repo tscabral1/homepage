@@ -18,6 +18,7 @@ import {
   FaReact,
   FaSquarePollHorizontal,
   FaX,
+  FaEvernote,
 } from "react-icons/fa6";
 import { FcSupport } from "react-icons/fc";
 import { IoLogoYoutube } from "react-icons/io5";
@@ -67,6 +68,12 @@ export default function Home() {
           title="Dropbox"
           icon={<BsDropbox />}
           color="text-[#0060FF]"
+        />
+        <Favorite
+          url="https://www.evernote.com/Login.action"
+          title="Evernote"
+          icon={<FaEvernote />}
+          color="text-[#00A82D]"
         />
         <Favorite
           url="https://www.1377x.to/"
