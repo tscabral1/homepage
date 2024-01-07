@@ -38,7 +38,13 @@ export default function Home() {
   return (
     <main className="bg-[#2a2a2a] h-screen pt-9 grid grid-cols-3 gap-4 px-56 justify-between">
       {/* General Favorites */}
-      <div>
+      <div>      
+        <Favorite
+          url="https://docs.google.com/spreadsheets/d/1ol957s5LebVM3ZyMDb7c93Wde5WRxpZ6_lIRJ6p_l-E/edit#gid=656989373"
+          title="Finanças"
+          icon={<FaFileExcel />}
+          color="text-[green]"
+        />
         <Favorite
           url="https://www.youtube.com"
           title="YouTube"
