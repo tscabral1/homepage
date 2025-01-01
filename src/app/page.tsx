@@ -40,7 +40,7 @@ export default function Home() {
       {/* General Favorites */}
       <div>      
         <Favorite
-          url="https://docs.google.com/spreadsheets/d/1G2kIeOkdKvTIvlwt4yLxlyheYwPx8e1WMuiNJ7Ge5C8/edit?usp=sharing"
+          url="https://docs.google.com/spreadsheets/d/1G2kIeOkdKvTIvlwt4yLxlyheYwPx8e1WMuiNJ7Ge5C8/edit?gid=656989373#gid=656989373"
           title="Finanças"
           icon={<FaFileExcel />}
           color="text-[green]"
