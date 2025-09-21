@@ -88,8 +88,8 @@ export default function Home() {
           color="text-orange-700"
         />
         <Favorite
-          url="https://getpocket.com/pt/saves"
-          title="Pocket"
+          url="https://app.raindrop.io/my/0"
+          title="Raindrop"
           icon={<FaGetPocket />}
           color="text-[#eb3372]"
         />
